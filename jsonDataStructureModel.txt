@@ -1,0 +1,45 @@
+{
+  track: "rt_fuji_speedway-layout_gp"
+  number_of_sessions: 2
+  players: [
+    {
+      name: "Afx31"
+      car: "gt4_toyota_supra"
+      skin: "Revel_Motorsports"
+    }
+  ]
+  sessions: [
+    {
+      event: 0
+      name: "Race"
+      type: 3
+      lapsCount: 0
+      duration: 45
+      laps [
+        {
+          laps: 2
+          car: 0
+          sectors: [26434, 44046, 44955]
+          time: 115435
+          cuts: 0
+          tyre: "GT4"
+        }
+      ]
+      lapstotal [25, 25, 0, 0, 0, 24, 25, 0, 0, 25, 0, 25, 0, 25, 0, 17, 25, 25, 0, 0, 25, 0, 25, 0, 25, 0]
+      bestLaps [
+        {
+          car: 0
+          time: 110842
+          lap: 4
+        }
+      ]
+      raceResults: [11, 6, 24, 20, 1, 16, 9, 0, 22, 13, 17, 5, 15, 12, 14, 10, 8, 7, 18, 19, 4, 21, 3, 23, 2, 25]
+    }    
+  ]
+  extras [
+    {
+      name: "bestlap"
+      time: 110842
+    }
+  ]
+}
